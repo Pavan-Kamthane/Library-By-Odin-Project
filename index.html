@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library || Pavan Kamthane</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Library Mart</h1>
+        <nav>
+            <a href="mailto:pavankamthane4@gmail.com">Email me</a>
+            <a href="https://www.linkedin.com/in/pavankamthane/">Contact Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="" class="addbook">
+            <h2>Add Book</h2>
+            <div>
+                <label for="bookname">Book Name:</label>
+                <input type="text" name="bookname" id="bookname" placeholder="Enter Book Name">
+            </div>
+
+            <div>
+                <label for="authorname">Author Name:</label>
+                <input type="text" name="authorname" id="authorname" placeholder="Enter Author Name">      
+            </div>
+
+            <div>
+                <label for="pages">Pages:</label>
+                <input type="text" name="pages" id="pages" placeholder="Enter Pages">
+            </div>
+
+            <div>
+                <input type="radio" name="read" id="read" value="read">
+                <label for="read">Read</label>
+            </div>
+
+            <div>
+                <input type="radio" name="read" id="unread" value="unread">
+                <label for="unread">Unread</label>
+            </div>
+
+            <input type="submit" class="submit" value="Add Book">
+        </form>
+
+        <div class="books">
+            <!-- Your Books -->
+            <h2>Books</h2>
+
+            <div class="book_box">
+                <!-- book will come from js -->
+
+
+                <!-- <div class="book">
+                    <h3>Book-name</h3>
+                    <h4>Author-name</h4>
+                    <p>Pages</p>
+                    <button class="read">Read</button>
+                    <button class="delete">Delete</button>
+                </div>
+                
+                <div class="book">
+                    <h3>Book-name</h3>
+                    <h4>Author-name</h4>
+                    <p>Pages</p>
+                    <button class="unread">Unead</button>
+                    <button class="delete">Delete</button>
+                </div> -->
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
